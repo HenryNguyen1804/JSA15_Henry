@@ -52,6 +52,14 @@ a {
 
 body{
     font-family: 'Poppins', sans-serif;
+    height: 100000px;
+    background-color: #61D2B4;
+}
+#heading{
+    position: fixed;
+    top: 35px;
+    width: 100%;
+    
 }
 .menu-container{
     background-image: url(https://preview.uideck.com/items/mate/img/hero-area.jpg);
@@ -87,10 +95,13 @@ body{
     margin-right: 20px;
     padding: 10px 20px;
 }
-.header-container .header .collumn-2 div:nth-child(1) a{
-    background-color:#61D2B4;
+.header-container .header .collumn-2 div a{
+
     padding: 10px 20px;
     border-radius: 30px;
+}
+.header-container .header .collumn-2 div a:hover{
+    color:#61D2B4;
 }
 
 
@@ -125,10 +136,6 @@ body{
     font-weight: 400;
 }
 
-
-html{
-    scroll-behavior: smooth;
-}
 
 
 
