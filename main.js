@@ -7,7 +7,7 @@ var list = document.querySelectorAll(".collumn-2 div a")
 function changeFunction() {
     if (document.documentElement.scrollTop > 350) {
         changecolor.style.background = "#edf6f9";
-        changecolor.style.paddingTop="5px"
+        changecolor.style.paddingTop="10px"
         list.forEach(item=>{
             item.style.color="#3a3b3e"
         })

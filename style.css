@@ -82,9 +82,9 @@ header{
 .header-container .row-1 .collumn-2 div a{
     padding: 10px 20px;
     border-radius: 30px;
-    font-size: 14px;
-    font-weight: 200;
-}
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;}
 .header-container .row-1 .collumn-2 div a:active{
     background-color:#61D2B4;
     color: white!important;
