@@ -1,28 +1,21 @@
 var changecolor = document.querySelector(".header-container");
 window.onscroll = function () {
-    changeFunction();
+	changeFunction();
 };
-var list = document.querySelectorAll(".collumn-2 div a")
+var list = document.querySelectorAll(".column-2 div a");
 
 function changeFunction() {
-    if (document.documentElement.scrollTop > 350) {
-        changecolor.style.background = "#edf6f9";
-        changecolor.style.paddingTop="10px"
-        list.forEach(item=>{
-            item.style.color="#3a3b3e"
-        })
-
-    } 
-    else {
-        changecolor.style.background = "transparent";
-        changecolor.style.paddingTop="20px"
-        list.forEach(item=>{
-            item.style.color="white"
-        })
-    }
+	if (document.documentElement.scrollTop > 350) {
+		changecolor.style.background = "#edf6f9";
+		changecolor.style.paddingTop = "10px";
+		list.forEach(item => {
+			item.style.color = "#3a3b3e";
+		});
+	} else {
+		changecolor.style.background = "transparent";
+		changecolor.style.paddingTop = "20px";
+		list.forEach(item => {
+			item.style.color = "white";
+		});
+	}
 }
-
-
-
-
-
