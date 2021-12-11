@@ -85,10 +85,10 @@ a {
 	text-decoration: none;
 	color: #000;
 }
-
+/* DONT READ ANYTHING ABOVE */
 body {
 	height: 100000px;
-	/* background-color: #61D2B4;     */
+	background-color: #61d2b4;
 }
 .header-container {
 	position: fixed;
@@ -195,6 +195,7 @@ header {
 	font-weight: 400;
 	font-size: 14px;
 }
+
 .underline {
 	width: 100px;
 	margin: auto;
@@ -202,4 +203,22 @@ header {
 	border-top: 2px solid #61d2b4;
 	margin: 15px auto 15px auto;
 	top: -5px;
+}
+
+.content-1 .row-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content-1 .row-2 div p,
+.content-1 .row-2 div h4 {
+	text-align: center;
+}
+.content-1 .row-2 div p {
+	font-family: sans-serif;
+}
+.content-1 .row-2 div {
+	width: 320px;
+	margin: 50px 50px 0 0;
+	line-height: 30px;
 }
